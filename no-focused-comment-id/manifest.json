@@ -1,0 +1,12 @@
+{
+  "name": "No Focused Comment Id",
+  "version": "1.0",
+  "description": "Stop JIRA from using a horrible UI",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["handle-navigation.js"],
+    "persistent": false
+  }
+
+}
